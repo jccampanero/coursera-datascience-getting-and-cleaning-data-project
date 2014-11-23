@@ -41,7 +41,7 @@ source('run_analysis.R')
 tidydata <- run.analysis('./UCI HAR Dataset')
 ```
 
-As a result of such invocation, the script will create a tidy data set containing the means of all the columns per test subject and per activity. This tidy data set will be written to a file called `tidydata.txt` in the UCI HAR Dataset folder, which can also be found in this repository. As a convenience, the `run.analysis` function will return the tidy data set for further processing, if required.
+As a result of such invocation, the script will create a tidy data set containing the means of all the columns per test subject and per activity. This tidy data set will be written to a file called `tidydata.txt` in the provided folder, which can also be found in this repository. As a convenience, the `run.analysis` function will return the tidy data set for further processing, if required.
 
 ## About the Code Book
 

@@ -71,7 +71,7 @@ run.analysis <- function(dir) {
   names(tidydata) <- names
   
   # Finally, write the tidy data set to the filesystem
-  tidydata.filename <- file.path(dir, "../tidydata.txt")
+  tidydata.filename <- file.path(dir, "tidydata.txt")
   write.table(tidydata, tidydata.filename, row.names = FALSE, quote = FALSE)
   
   # Return the generated tidy data set
